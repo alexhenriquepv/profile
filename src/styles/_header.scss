@@ -22,6 +22,11 @@
   margin: 0 auto;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+
+  img.site-avatar {
+    border-radius: 50% 50% 0 0;
+  }
+
   .site-title {
     font-size: 50px;
     display: block;
@@ -39,7 +44,7 @@
     color: #FFF;
     margin-top: 10px;
     @media only screen and (min-width:$cut){
-      font-size: 34px;
+      font-size: 20px;
     }
   }
 }

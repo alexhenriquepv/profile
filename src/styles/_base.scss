@@ -20,8 +20,8 @@ article, aside, figcaption, figure, footer, header, nav, section {
     display: block;
 }
 h1, h2, h3, h4, stong {
-    margin-top: 1em;
-    padding-top: 1em;
+    margin-top: .5em;
+    padding-top: .5em;
     line-height: 1.25;
     color: #333;
 }
@@ -49,4 +49,18 @@ a img {
 }
 sup, sub {
     line-height: 0;
+}
+
+.custom-label {
+    display: inline-block;
+    line-height: 1;
+    vertical-align: baseline;
+    background-color: #e8e8e8;
+    margin: .14285714em;
+    padding: .5833em .833em;
+    color: rgba(0, 0, 0, .6);
+    font-weight: 700;
+    border: 1px solid rgba(0, 0, 0, .6);
+    border-radius: .28571429rem;
+    transition: background .1s ease;
 }

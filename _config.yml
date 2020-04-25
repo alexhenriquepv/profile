@@ -1,19 +1,67 @@
-# Site settings
-title: Mauricio Urraco
-description: Jekyll Theme Minimal Resume
-# baseurl: "" # the subpath of your site, e.g. /blog
-# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+lang:
+  en:
+    about_me: Who am I?
+    experience: Professional experience
+    my_jobs: My jobs
+    user_title: Software Engineer
+    user_description: I am lover of astrophysics. I have 3 dogs and I taught them python. I don't hate Windows but Linux is very very nice.
+    experiences: [
+      SSPAM - Intern,
+      SSPAM - WebDev e IT support
+    ]
+  pt:
+    about_me: Quem sou eu?
+    experience: Experiência profissional
+    my_jobs: Meus Jobs
+    user_title: Engenheiro de Software
+    user_description: Amante da astrofísica. Tenho 3 cachorros e ensinei python pra eles.
+    experiences: [
+      SSPAM - Estagiário,
+      SSPAM - Fullstack Dev e suporte de TI,
+      Oligoflora - Fullstack Dev e suporte de TI,
+      NIBGC - Fullstack Dev,
+      Energisa - Analista de Sistemas
+    ]
+    skills: [
+      "Node","AdonisJS","ExpressJS","Angular","Vue","ElectronJS",
+      "Bootstrap","Materialize","Semantic UI",
+      "PHP","Laravel","OctoberCMS","Wordpress",
+      "Flutter","IONIC",
+      "Docker","Git","Github Actions","CI/CD",
+      "Bat Script","Shell Script","Magik Smallworld","Arcgis"
+    ]
+    works: [
+      {
+        name: "SACE - Sistema de Atendimento da Polícia Militar, SSPAM",
+        description: "O sistema operativo da PM e Corpo de Bombeiros, que incluia controle e geolocalização em tempo real das ocorrências policiais, viaturas, tornozeleiras eletrônicas, gestão das informações e análise de dados."
+      },
+      {
+        name: "SGV - Sistema de gerenciamento de roubo de veículos, SSPAM",
+        description: "Controle e verificação de roubo e furto de veículos e permite o acesso rápido das informações de restrição e fornece API ara o aplicativo de reconhecimento visual de placas da PM."
+      },
+      {
+        name: "Clinesoftware - Sistema de gerenciamento para clínicas",
+        description: "Focado em clínicas estéticas, fornece gestão de vendas, agenda inteligente, gestão de fichas de avaliação e gestão de cabines de atendimento. Acompanha um aplicativo de armazenamento de fotos(antes e depois) e outro de para pesquisa de satisfação do cliente."
+      },
+      {
+        name: "NIBGC - Sistema de gerenciamento para igrejas",
+        description: "Gerenciamento operacional das atividades da igreja, incluindo controle de membros, visitantes, gestão da seminário bíblico e participação ministerial."
+      },
+      {
+        name: "Energisa GIS - Sistema de controle de ativos",
+        description: "Sistema de cadastro e gerenciamento dos ativos elétricos da empresa. É um sistema legado e complexo que se comunica com dezenas de outros e possui arquitetura monolítica."
+      }
+    ]
+    
 
-# User settings
-username: Mauricio Urraco
-user_description: I\'m a nomad Software Engineer, always searching for the next challenge; no task is too scary nor too difficult. Lately I have been immersed in the <b>crypto-world</b> working for Radix, a London based startup trying to create the next massive scalable DLT. I'm one of the two guys behind all the JS related stuff. Visit my blog here <a href="https://mauriciourraco.com" target="_blank">https://mauriciourraco.com</a>
-user_title: Software Engineer
-email: mauriurraco@gmail.com
-# twitter_username: lorem_ipsum
-# github_username:  lorem_ipsum
-# gplus_username:  lorem_ipsum
+title: Alex Paiva
+description: Know me a little
+username: Alex Paiva
 
-# Google-analytics
+email: alexhenriquepv@gmail.com
+twitter_username: alexhenriquepvv
+github_username:  alexhenriquepv
+linkedin_username: alexhenriquepv
 google-analytics:
   id: ""
 

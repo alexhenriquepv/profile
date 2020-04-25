@@ -4,9 +4,10 @@
   "description": "This is a simple Jekyll theme for a minimal resume website.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp-watch": "gulp watch"
   },
-  "author": "Mauricio Urraco <mauriurraco@gmail.com>",
+  "author": "Alex Paiva <alexhenriquepv@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "browser-sync": "^2.18.6",
